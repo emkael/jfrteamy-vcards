@@ -19,7 +19,7 @@ if (typeof JFRTEAMY_VCARDS == 'undefined') {
                     if (parseInt(pid) < 30000) {
                         links[i].onmouseover = (function(p) { return function() {
                             if (p != loadedPid) {
-                                var iframeURL = 'http://cezar.brydzystow.pl/' + p;
+                                var iframeURL = '//cezar.brydzystow.pl/' + p;
                                 var iframe = document.createElement('iframe');
                                 iframe.src = iframeURL;
                                 iframe.onload = function() {
