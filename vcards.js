@@ -9,6 +9,9 @@ if (typeof JFRTEAMY_VCARDS == 'undefined') {
         loader.style.display = 'none';
         loader.style.margin = '0 30px';
         fotoSpan.parentNode.insertBefore(loader, fotoSpan);
+        fotoSpan.parentNode.width = 600;
+        fotoSpan.parentNode.height = 500;
+        fotoSpan.parentNode.style.verticalAlign = 'top';
         var loadedPid = undefined;
         for (var i = 0; i < links.length; i++) {
             var link = new URL(links[i].href);
@@ -30,7 +33,7 @@ if (typeof JFRTEAMY_VCARDS == 'undefined') {
                                     loader.style.display = 'none';
                                 }
                                 fotoSpan.innerHTML = '';
-                                loader.style.display = 'inline-block';
+                                loader.style.display = 'inline';
                                 fotoSpan.style.visibility = 'hidden';
                                 fotoSpan.append(iframe);
                                 loadedPid = p;
