@@ -17,7 +17,7 @@ Użycie
 Przykład działania
 ------------------
 
-[IV liga LD, 2016/17](https://emkael.info/brydz/wyniki/2016/4liga/ivld_o_T3.html)
+[Rozgrywki o team organizatora GPPT'17](https://emkael.info/brydz/wyniki/2017/to_gppt/to_gppt_T1.html)
 
 Uwagi
 -----
